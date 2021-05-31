@@ -37,6 +37,12 @@ public class App {
                 char newCharacter = (char) ('a' + newPosition);
                 sb.append(newCharacter);
             }
+            else{
+                sb.append(character);
+            }
+        }
+        return sb.toString();
+    }
     }
 }
 
