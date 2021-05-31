@@ -13,7 +13,10 @@ public class App {
     public int getNum() {
         return num;
     }
-
+    public String encryption() {
+        StringBuilder sb = new StringBuilder();
+        for (char character ;)
+    }
 }
 
 
