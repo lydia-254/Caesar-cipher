@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Caesar {
+//    public Caesar() {
+
     public static void main(String[] args) {
         System.out.println(Hello,Welcome to my Caesar-cipher Website.);
         while (true){
