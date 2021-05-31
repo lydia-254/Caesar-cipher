@@ -24,6 +24,19 @@ public class App {
             }else{
                 sb.append(character);
             }
+        }
+        return sb.toString();
+    }
+    public String decryption(){
+        int reverse = 26 - (num % 26);
+        StringBuilder sb = new StringBuilder();
+        for (char character : message.toCharArray()){
+            if( character != ' ') {
+                int asciiPosition = character - 'a';
+                int newPosition = (asciiPosition + reverse) % 26;
+                char newCharacter = (char) ('a' + newPosition);
+                sb.append(newCharacter);
+            }
     }
 }
 
