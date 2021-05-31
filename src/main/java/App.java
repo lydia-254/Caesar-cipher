@@ -23,7 +23,10 @@ public class App {
                 int reversValue = input.nextInt();
                 App encryptText = new App(encryptedText, reversValue);
                 System.out.println("decrypted message:" + encryptText.decryption());
-
+                break;
+            }
+            else if {
+                System.out.println("invalid choice");
             }
         }
     }
