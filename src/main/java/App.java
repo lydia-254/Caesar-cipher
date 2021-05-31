@@ -15,7 +15,15 @@ public class App {
     }
     public String encryption() {
         StringBuilder sb = new StringBuilder();
-        for (char character ;)
+        for( char character : message.toCharArray()){
+            if( character != ' '){
+                int asciiPosition = character -'a';
+                int newPosition = (asciiPosition + num)%26;
+                char newCharacter = (char)('a' + newPosition);
+                sb.append(newCharacter);
+            }else{
+                sb.append(character);
+            }
     }
 }
 
