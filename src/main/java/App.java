@@ -6,11 +6,19 @@ public class App {
             Scanner input= new Scanner(Scanner.in);
             String choice = input.nextLine().toLowerCase();
             if (choice.equals("e")){
-                System.out.println("Input The Text For Encryption");
-                String plainText = input.nextLine().toLowerCase();
+                System.out.println("Input The Test For Encryption");
+                String planeText = input.nextLine().toLowerCase();
                 System.out.println("Input The Random Value");
-                int none = input.nextInt();
-                App message = new App(plainText, none);
+                int num = input.nextInt();
+                App message = new App(planeText, num);
+                System.out.println("plane Text:" + message.getMessage() + "/n new value of:" + message.getNum());
+                System.out.println("Encrypt Test:" + message.encryption());
+                break;
+
+            }
+            else if (choice.equals("d")){
+                System.out.println("Input Test to Decrypt");
+                String encryptedText = input.nextLine().toLowerCase();
 
             }
         }
