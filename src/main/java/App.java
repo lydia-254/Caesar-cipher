@@ -19,6 +19,10 @@ public class App {
             else if (choice.equals("d")){
                 System.out.println("Input Test to Decrypt");
                 String encryptedText = input.nextLine().toLowerCase();
+                System.out.println("Enter numValue");
+                int reversValue = input.nextInt();
+                App encryptText = new App(encryptedText, reversValue);
+                System.out.println("decrypted message:" + encryptText.decryption());
 
             }
         }
