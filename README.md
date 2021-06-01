@@ -9,5 +9,5 @@ It is  a type of substitution in which each letter is shifted a certain number o
 1. JAVASCRIPT
 
 ## License
-This project is under MIT (LICENSE) license.
+This project is under MIT ( LICENSE) license.
 
