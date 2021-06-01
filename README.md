@@ -8,7 +8,6 @@ It is  a type of substitution in which each letter is shifted a certain number o
 ## Technologies used
 1. JAVASCRIPT
 
-## Contacts
+## License
+This project is under MIT (LICENSE) license.
 
-[Email](https://mail.google.com) - kangerilydia@gmail.com <br>
-Phone - +254719781523
