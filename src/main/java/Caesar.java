@@ -3,7 +3,7 @@ public class Caesar {
     public int num;
     public  Caesar(String message, int num){
         this.message = message;
-        this.num;
+        this.num = num;
     }
 
     public String getMessage() {
