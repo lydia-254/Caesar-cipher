@@ -14,4 +14,14 @@ public class CaesarTest {
         Caesar caesar = new Caesar("Hello", 4);
         assertEquals(true, caesar  instanceof Caesar);
     }
+    @Test
+    public void testEncryptWithShift26() {
+        int shift = 26;
+        String message = "Hello, world!";
+        String expectedResultMessage = "null";
+        String actualResultMessage = Caesar.encrypt(shift, message);
+
+        assertFalse(expectedResultMessage, Boolean.parseBoolean(actualResultMessage));
+    }
 }
+

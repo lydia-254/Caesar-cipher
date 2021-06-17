@@ -6,6 +6,10 @@ public class Caesar {
         this.num = num;
     }
 
+    public static String encrypt(int shift, String message) {
+        return null;
+    }
+
     public String getMessage() {
         return message;
     }
