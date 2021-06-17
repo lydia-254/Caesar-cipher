@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efbce0db-41a6-4b21-b4a3-83d8f860b9d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Caesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Caesar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CaesarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/CaesarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CaesarTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/CaesarTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CaesarTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-CaesarTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Caesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Caesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CaesarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CaesarTest">
+  <component name="RunManager" selected="Gradle.CaesarTest.testEncryptWithShift10">
     <configuration type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,12 +146,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CaesarTest.NewCaesarObjectGetsCorrectlyCreated_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CaesarTest.testEncryptWithShift10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;CaesarTest.NewCaesarObjectGetsCorrectlyCreated_true&quot;" />
+        <option name="scriptParameters" value="--tests &quot;CaesarTest.testEncryptWithShift10&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -230,18 +210,18 @@
       <item itemvalue="Application.App.java" />
       <item itemvalue="Application.Caesar.java" />
       <item itemvalue="Application.App" />
-      <item itemvalue="Gradle.CaesarTest.NewCaesarObjectGetsCorrectlyCreated_true" />
       <item itemvalue="Gradle.CaesarTest" />
       <item itemvalue="Gradle.CaesarTest.testEncryptWithShift36" />
       <item itemvalue="Gradle.CaesarTest.testEncryptWithShift26" />
+      <item itemvalue="Gradle.CaesarTest.testEncryptWithShift10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CaesarTest.testEncryptWithShift10" />
         <item itemvalue="Gradle.CaesarTest" />
         <item itemvalue="Gradle.CaesarTest.testEncryptWithShift26" />
         <item itemvalue="Gradle.CaesarTest.testEncryptWithShift36" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.CaesarTest.NewCaesarObjectGetsCorrectlyCreated_true" />
       </list>
     </recent_temporary>
   </component>
