@@ -22,6 +22,15 @@ public class CaesarTest {
         String actualResultMessage = Caesar.encrypt(shift, message);
 
         assertFalse(expectedResultMessage, Boolean.parseBoolean(actualResultMessage));
+    }@Test
+    public void testEncryptWithShift10() {
+        int shift = 10;
+        String message = "Hello, world!";
+        String expectedResultMessage = "null";
+        String actualResultMessage = Caesar.encrypt(shift, message);
+
+        assertFalse(expectedResultMessage, Boolean.parseBoolean(actualResultMessage));
     }
+
 }
 

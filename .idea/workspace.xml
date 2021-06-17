@@ -106,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CaesarTest.testEncryptWithShift26">
+  <component name="RunManager" selected="Gradle.CaesarTest">
     <configuration type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -237,10 +237,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CaesarTest" />
         <item itemvalue="Gradle.CaesarTest.testEncryptWithShift26" />
         <item itemvalue="Gradle.CaesarTest.testEncryptWithShift36" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.CaesarTest" />
         <item itemvalue="Gradle.CaesarTest.NewCaesarObjectGetsCorrectlyCreated_true" />
       </list>
     </recent_temporary>
